@@ -796,15 +796,15 @@ Responsive media queries
 
 
 
-.img-responsive.mobile {
+.img-responsive1.mobile {
   display: none;
 }
 
-@media only screen and (max-device-width: 480px) {
-  .img-responsive {
+@media only screen and (max-device-width: 600px) {
+  .img-responsive1 {
     display: none;
   }
-  .img-responsive.mobile {
+  .img-responsive1.mobile {
     display: block;
   }
 }
