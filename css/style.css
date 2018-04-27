@@ -809,3 +809,24 @@ Responsive media queries
     display: block;
   }
 }
+
+.overlay-btn {
+    position:absolute;
+    bottom:5px;
+    right:5px;
+    background:rgba(245, 245, 245, 0.3);;
+    color:white;
+    border-color: #ccc;
+}
+
+.noHover{
+    pointer-events: none;
+}
+
+.neg-margin {
+    margin-top: -30px;
+}
+
+.imghvr-fold-up:hover .overlay-btn{
+    display: none;
+}
