@@ -841,3 +841,42 @@ Responsive media queries
 .btn-dark-green {
     background-color: #00bfa5 !important;
 }
+
+@media screen and (min-width: 768px) {
+    
+    #TandC .modal-dialog  {width:70%;}
+    #TandC .modal-body {
+          max-height: 500px;
+          overflow-y: auto;
+        }
+
+    #privacy .modal-dialog  {width:70%;}
+    #privacy .modal-body {
+          max-height: 500px;
+          overflow-y: auto;
+        }
+
+    .modal-dialog  {width:40%;}
+}
+
+@media screen and (max-width: 768px) {
+    
+    #TandC .modal-dialog  {width:90%;}
+    #TandC .modal-body {
+          max-height: 300px;
+          overflow-y: auto;
+        }
+    #privacy .modal-dialog  {width:90%;}
+    #privacy .modal-body {
+          max-height: 300px;
+          overflow-y: auto;
+        }
+
+    .modal-body {
+          max-height: 200px;
+          overflow-y: auto;
+        }
+    .modal-dialog  {width:90%;}
+
+}
+

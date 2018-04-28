@@ -14,6 +14,7 @@
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/imagehover.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+
 </head>
 
 <body>
@@ -211,7 +212,7 @@
 
 <!-- Modal -->
 <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-notify modal-info modal-sm" role="document">
+    <div class="modal-dialog modal-notify modal-info" role="document">
         <!--Content-->
         <div class="modal-content">
             <!--Header-->
@@ -262,7 +263,7 @@
 
 
 <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-notify modal-info modal-sm" role="document">
+      <div class="modal-dialog modal-notify modal-info" role="document">
           <!--Content-->
           <div class="modal-content">
               <!--Header-->
@@ -320,7 +321,7 @@
   </div>
 
 <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-notify modal-info modal-sm" role="document">
+      <div class="modal-dialog modal-notify modal-info" role="document">
           <!--Content-->
           <div class="modal-content">
               <!--Header-->
@@ -350,7 +351,7 @@
   </div>
 
 <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-notify modal-info modal-sm" role="document">
+      <div class="modal-dialog modal-notify modal-info" role="document">
           <!--Content-->
           <div class="modal-content">
               <!--Header-->
@@ -396,7 +397,7 @@
   </div>
 
 <div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-notify modal-info modal-sm" role="document">
+      <div class="modal-dialog modal-notify modal-info" role="document">
           <!--Content-->
           <div class="modal-content">
               <!--Header-->
@@ -442,7 +443,7 @@
   </div>
 
 <div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-notify modal-info modal-sm" role="document">
+      <div class="modal-dialog modal-notify modal-info" role="document">
           <!--Content-->
           <div class="modal-content">
               <!--Header-->
@@ -488,6 +489,42 @@
   </div>
 <!--/ Modal -->
 
+<div class="modal fade" id="TandC" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-notify modal-info" role="document" id="inner-modal">
+        <!--Content-->
+        <div class="modal-content">
+            <div class="modal-body">
+                 <!-- <iframe " src=""></iframe>  -->
+                 <iframe src="https://eventgraphia.com/terms.html" style="zoom:0.60" width="99.6%" height="900px" frameborder="0"></iframe>
+            </div>
+    
+            <!--Footer-->
+            <div class="modal-footer justify-content-center">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+        <!--/.Content-->
+    </div>
+</div>
+
+<div class="modal fade" id="privacy" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-notify modal-info" role="document" id="inner-modal">
+        <!--Content-->
+        <div class="modal-content">
+            <div class="modal-body">
+                 <!-- <iframe " src=""></iframe>  -->
+                 <iframe src="https://eventgraphia.com/privacy.html" style="zoom:0.60" width="99.6%" height="900px" frameborder="0"></iframe>
+            </div>
+    
+            <!--Footer-->
+            <div class="modal-footer justify-content-center">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+        <!--/.Content-->
+    </div>
+</div>
+
 
   <!--Footer-->
   <footer id="footer" class="footer">
@@ -500,10 +537,14 @@
           </li>
           <hr>
           <li>
-            <a href="#">Term &amp; Conditions</a>
+            <a href="" data-toggle="modal" data-target="#TandC">
+              Term &amp; Conditions</a>
           </li>
           <li>
-            <a href="#">Privacy Policy</a>
+            <a href="" data-toggle="modal" data-target="#privacy">Privacy Policy</a>
+          </li>
+          <li>
+            <a href="https://eventgraphia.com/portfolio.html" target="_blank">Our Portfolio</a>
           </li>
           
         </ul>
@@ -535,30 +576,37 @@
           </li>
           <hr>
           <li>
-            <a href="#">Photography for Beginners</a>
+            <a href="https://evgr.pw/school/#courses" target="_blank">Photography course in Delhi-NCR</a>
+          </li>
+          
+          <li>
+            <a href="https://evgr.pw/school/#courses" target="_blank">Cinematography course in Delhi-NCR</a>
+          </li>
+          
+          <li>
+            <a href="https://evgr.pw/school/#courses" target="_blank">Mobile Photography Course in Delhi-NCR</a>
           </li>
           <li>
-            <a href="#">Photography for Professionals</a>
+            <a href="https://evgr.pw/school/#courses" target="_blank">Photo Editing Course in Delhi-NCR</a>
           </li>
           <li>
-            <a href="#">Cinematography for Beginners</a>
-          </li>
-          <li>
-            <a href="#">Cinematography for Professionals</a>
+            <a href="https://evgr.pw/school/#courses" target="_blank">Video Editing Course in Delhi-NCR</a>
           </li>
         </ul>
       </div>
     </div>
       
-      <ul class="social-links">
-        <li><a href="https://instagram.com/eventgraphia" target="_blank"><i class="fa fa-instagram fa-fw"></i></a></li>
-        <li><a href="https://www.facebook.com/eventgraphia" target="_blank"><i class="fa fa-facebook fa-fw"></i></a></li>
-        <li><a href="https://www.twitter.com/eventgraphia" target="_blank"><i class="fa fa-twitter fa-fw"></i></a></li>
-        <li><a href="https://www.linkedin.com/company/event-graphia" target="_blank"><i class="fa fa-linkedin fa-fw"></i></a></li>
-      </ul>
+      
       <h4>
         <a href="https://eventgraphia.com" target="_blank">EventGraphia Pvt. Ltd.</a>
       </h4>
+
+      <!-- <ul class="social-links"> -->
+        <a href="https://instagram.com/eventgraphia" target="_blank"><i class="fa fa-instagram fa-fw"></i></a>
+        <a href="https://www.facebook.com/eventgraphia" target="_blank"><i class="fa fa-facebook fa-fw"></i></a>
+        <a href="https://www.twitter.com/eventgraphia" target="_blank"><i class="fa fa-twitter fa-fw"></i></a>
+        <a href="https://www.linkedin.com/company/event-graphia" target="_blank"><i class="fa fa-linkedin fa-fw"></i></a>
+      <!-- </ul> -->
       <!-- ©2016 Mentor Theme. All rights reserved -->
       <!-- <div class="credits">
         
@@ -567,9 +615,9 @@
     </div>
   </footer>
   <!--/ Footer-->
-
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery.easing.min.js"></script>
+  
   <script src="js/bootstrap.min.js"></script>
   <script src="js/custom.js"></script>
 
