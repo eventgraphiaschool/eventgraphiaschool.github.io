@@ -879,7 +879,7 @@ Responsive media queries
         }
     #google-form .modal-dialog  {width:100%;}
     #google-form .modal-body {
-          max-height: 400px;
+          max-height: 800px;
           overflow-y: auto;
         }
 
