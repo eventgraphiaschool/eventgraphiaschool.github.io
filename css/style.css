@@ -855,9 +855,8 @@ Responsive media queries
           max-height: 500px;
           overflow-y: auto;
         }
-
     
-    #google-form .modal-body {
+    #google-form #myModal1-form .modal-body {
           max-height: 500px;
           overflow-y: auto;
         }
@@ -877,8 +876,9 @@ Responsive media queries
           max-height: 300px;
           overflow-y: auto;
         }
-    #google-form .modal-dialog  {width:100%;}
-    #google-form .modal-body {
+
+    #google-form #myModal1-form .modal-dialog  {width:100%;}
+    #google-form #myModal1-form .modal-body {
           max-height: 800px;
           overflow-y: auto;
         }
