@@ -936,3 +936,7 @@ Responsive media queries
     .modal-dialog  {width:90%;}
 
 }
+
+.modal {
+  overflow-y:auto;
+}
