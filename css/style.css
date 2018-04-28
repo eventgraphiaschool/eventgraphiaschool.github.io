@@ -856,7 +856,7 @@ Responsive media queries
           overflow-y: auto;
         }
     
-    #google-form #myModal1-form .modal-body {
+    #google-form #myModal1-form #myModal2-form #myModal3-form #myModal4-form #myModal5-form {
           max-height: 500px;
           overflow-y: auto;
         }
@@ -877,8 +877,8 @@ Responsive media queries
           overflow-y: auto;
         }
 
-    #google-form #myModal1-form .modal-dialog  {width:100%;}
-    #google-form #myModal1-form .modal-body {
+    #google-form #myModal1-form #myModal2-form #myModal3-form #myModal4-form #myModal5-form .modal-dialog  {width:100%;}
+    #google-form #myModal1-form #myModal2-form #myModal3-form #myModal4-form #myModal5-form .modal-body {
           max-height: 800px;
           overflow-y: auto;
         }
