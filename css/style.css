@@ -944,3 +944,7 @@ Responsive media queries
 .HoverCard{
     display: none !important;
 } 
+
+.margin_bottom_5{
+    margin-bottom: 5px;
+}
